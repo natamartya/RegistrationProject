@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join to KaiViJek"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingTop="@android:dimen/app_icon_size"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@android:dimen/app_icon_size"
+        android:text="Create your account in a few steps"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        />
+
+    <TextView
+        android:id="@+id/emailError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <EditText
+        android:id="@+id/passTxt"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10px"
+        android:paddingRight="10px" />
+
+    <TextView
+        android:id="@+id/passError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="382dp"
+        android:layout_height="67dp"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+
+        android:text="I have read and agreed to the Terms of Use and the Privacy Policy" />
+
+    <TextView
+        android:id="@+id/checkBoxError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingBottom="10px"/>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:text="NEXT"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
